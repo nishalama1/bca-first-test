@@ -1,0 +1,52 @@
+
+
+.logo{
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: #010596;
+    color: #ffffff;
+    /* padding: 15px; */
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none; /*yesle chai dot aako harauxa list ko */
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.todays-date{
+    text-align: bottom;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(37, 34, 34)
+    
+}
+a:hover{
+    color: rgb(100, 100, 188);
+}
+.date{
+    text-align:bottom;
+}
+.bar{
+    /* color: blueviolet; */
+    gap: none;
+
+}
+.user{
+    text-align: right;
+    background: #326cac;
+    color: #ffffff;
+}
+.user:hover{
+    background: #133d6b;
+}
